@@ -1,39 +1,36 @@
-.itemList{
-    width: 80vw;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto;
-    margin: auto;
-    text-align: center;
-    gap: 2rem 1rem;
-    margin-top: 3rem;
-    
+.itemList {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  margin: auto;
+  text-align: center;
+  gap: 2rem 1rem;
+  margin-top: 3rem;
 }
 
-
-.main{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.name{
-    margin-top: -2px;
+.name {
+  margin-top: -2px;
 }
-.lan{
-    margin-top: -10px;
+.lan {
+  margin-top: -10px;
 }
 
-.second{
-    margin: auto;
-    text-align: center;
-    margin-top: 10px;
+.second {
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
 }
-.summary{
-    width: 80%;
-    color: teal;
-    font-family: 'Times New Roman', Times, serif;
-    margin: auto;
-    text-align: center;
+.summary {
+  width: 80%;
+  color: teal;
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+  text-align: center;
 }
